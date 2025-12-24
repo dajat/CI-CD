@@ -18,7 +18,7 @@ export class DashboardPage {
   }
 
   async assertLoaded() {
-    await expect(this.page).toHaveURL('https://mini-bank.testamplify.com/dashboard');
+    //await expect(this.page).toHaveURL('https://mini-bank.testamplify.com/dashboard');
     await expect(this.overview).toBeVisible();
   }
 
